@@ -1,0 +1,13 @@
+:root {
+    --background-color: #122131;
+    --primary-color: #123a4c;
+    --secondary-color: #12616e;
+    --three-color: #1d6fc3;
+    --fourth-color: #00c0ff;
+    --black-color: #000;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    background-color: var(--background-color);
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 1055px) {
+    .vertical {
+        height: 35em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .vertical {
+        display: none;
+    }
+
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    header {
+        justify-content: start;
+        backdrop-filter: blur(0px);
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        align-items: start;
+
+        background-color: var(--background-color);
+
+        width: 90%;
+        height: 15em;
+        border-radius: 15px;
+        margin: 1em auto 0;
+        
+        gap: 1em;
+
+        position: absolute;
+        top: 0em;
+        left: 1.2em;
+    }
+
+    nav a {
+        padding: 0em;
+        /* border-bottom: 1px solid #444; */
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .show-nav {
+        display: flex;
+    }
+    
+    .title .animated-text, #about .right, #about .left, #projects, .projects, #contact {
+        width: 20em;
+    }
+}
