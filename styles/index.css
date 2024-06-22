@@ -21,12 +21,13 @@ header {
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
-    margin: 0 0 0 1.5em;
+    margin: 0 0 2em 1.5em;
 }
 
 .burger-menu span {
     width: 25px;
     height: 3px;
+    margin-bottom:;
     background-color: white;
 }
 
