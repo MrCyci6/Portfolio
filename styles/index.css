@@ -31,8 +31,20 @@ header {
 .burger-menu span {
     width: 25px;
     height: 3px;
-    margin-bottom:;
     background-color: white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.burger-menu.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.burger-menu.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
 }
 
 nav {

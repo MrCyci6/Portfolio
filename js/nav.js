@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     burgerMenu.addEventListener('click', () => {
         navbar.classList.toggle('show-nav');
+        burgerMenu.classList.toggle('open')
     });
 });
 
