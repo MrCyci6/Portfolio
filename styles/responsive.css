@@ -18,7 +18,8 @@
 @media screen and (max-width: 510px) {
     header {
         justify-content: start;
-        backdrop-filter: blur(0px);
+        /* backdrop-filter: blur(0px); */
+        border: none;
     }
 
     nav {
