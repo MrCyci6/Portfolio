@@ -7,7 +7,7 @@ const phrases = [
 let currentPhraseIndex = 0;
 let currentLetterIndex = 0;
 const typingSpeed = 50;
-const erasingSpeed = 25;
+const erasingSpeed = 40;
 const delayBetweenPhrases = 1000;
 
 const animatedTextElement = document.querySelector('.animated-text');
